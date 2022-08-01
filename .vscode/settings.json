@@ -1,0 +1,68 @@
+{
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "files.autoSave": "afterDelay",
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.experimental.editor.dragAndDropIntoEditor.enabled": true,
+    "workbench.list.horizontalScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.panel.opensMaximized": "always",
+    "workbench.quickOpen.preserveInput": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "workbench.input.interactive": true,
+        "workbench.editorinputs.searchEditorInput": true,
+        "vscode.markdown.preview.editor": true,
+        "jsProfileVisualizer.cpuprofile.table": true,
+        "jsProfileVisualizer.heapprofile.table": true,
+        "notebook": true
+    },
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "window.autoDetectColorScheme": true,
+    "window.closeWhenEmpty": true,
+    "explorer.experimental.fileNesting.enabled": true,
+    "explorer.incrementalNaming": "smart",
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "explorer.sortOrderLexicographicOptions": "unicode",
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "search.showLineNumbers": true,
+    "search.seedWithNearestWord": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "testing.automaticallyOpenPeekViewDuringAutoRun": true,
+    "extensions.ignoreRecommendations": true,
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "terminal.integrated.allowMnemonics": true,
+    "remote.downloadExtensionsLocally": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.showSubSessionsInToolBar": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowRepositories": true,
+    "redhat.telemetry.enabled": true,
+    "github.copilot.advanced": {
+    "debug.filterLogCategories": []
+    },
+    "github.copilot.enable": {
+    
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "."
+    ]
+}
